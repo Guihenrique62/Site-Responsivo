@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-  background-color: rgb(195, 195, 195);
-}
-
-h1 {
-  text-align: center;
-}
-
-h1>strong {
-  color: rgb(243, 88, 41);
-}
-
-#sub-title {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 main {
   padding: 20px;
   display: grid;
@@ -44,15 +26,15 @@ main {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.items:hover {
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
 .items>img {
   width: 100%;
   border-radius: 5px;
   height: auto;
+}
+
+.items:hover {
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 aside {
